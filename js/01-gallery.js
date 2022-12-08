@@ -35,8 +35,6 @@ galleryEl.insertAdjacentHTML('afterbegin', galleryMarkup);
 
 galleryEl.addEventListener('click', selectImage);
 
-//console.log(imageActive);
-
 function makeGalleryMarkup(galleryItems) {
   return galleryItems
     .map(({ preview, original, description }) => {

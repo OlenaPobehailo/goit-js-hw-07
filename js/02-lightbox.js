@@ -18,8 +18,6 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-console.log(galleryItems);
-
 const galleryEl = document.querySelector('.gallery');
 
 const galleryMarkup = makeGalleryMarkup(galleryItems);
@@ -54,5 +52,3 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionPosition: 'bottom',
   captionDelay: 250,
 });
-
-//console.log(lightbox);
